@@ -6,13 +6,14 @@
 using namespace sf;
 using namespace std;
 
-Enemy::Enemy(const Vector2f & size, const Color & color, float speed) {
+Enemy::Enemy(const Vector2f & size, const Color & color, float speed, float xposition) {
+
     xvel = 0;
     yvel = speed;
     car.setPosition(this->xpos, this->ypos);
     car.setFillColor(color);
     car.setSize(size);
-    xpos = 160;
+    xpos = xposition;
     ypos = -150;
 }
 

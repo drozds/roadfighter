@@ -1,28 +1,25 @@
+#ifndef GAME_H
+#define GAME_H
 #include <SFML/Graphics.hpp>
-#include <iostream>
 #include "Player.h"
 #include "Enemy.h"
 #include "DrawWindow.h"
 #include "Colision.h"
 #include "GameScore.h"
-#include <cstdlib>
-#include <ctime>
-#include "Game.h"
-
+#include "Car.h"
 using namespace sf;
 using namespace std;
 
 
+class Game {
 
-int main() {
-    Game game;
+    public:
+    Game();
+    bool gameOn;
+    void initGame();
+    void drawAll();
+    void updateAll();
 
+};
 
-
-
-
-
-
-
-    return 0;
-}
+#endif

@@ -3,7 +3,7 @@
 using namespace sf;
 
 Player::Player(const Vector2f & size, const Color & color, float speed) {
-    xpos = 150;
+    xpos = 250;
     ypos = 450;
     car.setPosition(this->xpos, this->ypos);
     car.setFillColor(color);
@@ -40,7 +40,7 @@ void Player::update() {
     if (this->moveRight() && this->moveLeft()) {
         xvel = 0;
     }
-    else if(this->moveRight() && xpos < 300) {
+    else if(this->moveRight() && xpos < 500) {
         xvel = step;
     }
     else if(this->moveLeft() && xpos > 0){

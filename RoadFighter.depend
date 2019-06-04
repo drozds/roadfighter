@@ -466,3 +466,78 @@
 1558500190 c:\users\siarhei\desktop\sdrozd\proi\proi4\roadfighter\colision.h
 	<SFML/Graphics.hpp>
 
+1558439585 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\car.cpp
+	<SFML/Graphics.hpp>
+	"Car.h"
+
+1559622272 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\car.h
+	<SFML/Graphics.hpp>
+
+1558500183 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.cpp
+	<SFML/Graphics.hpp>
+	"Collision.h"
+
+1559620028 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\drawwindow.cpp
+	<SFML/Graphics.hpp>
+	"DrawWindow.h"
+	"Car.h"
+	<string>
+
+1559620086 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\drawwindow.h
+	<SFML/Graphics.hpp>
+	<string>
+
+1559053822 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.cpp
+	<SFML/Graphics.hpp>
+	"Enemy.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+
+1559053812 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.h
+	"Car.h"
+
+1559621743 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"DrawWindow.h"
+	"Colision.h"
+	"GameScore.h"
+	<cstdlib>
+	<ctime>
+	"Game.h"
+
+1559622272 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.h
+	"Car.h"
+
+1558500190 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.h
+	<SFML/Graphics.hpp>
+
+1559030690 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.cpp
+	"Car.h"
+	<SFML/Graphics.hpp>
+
+1559051953 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.cpp
+	"GameScore.h"
+	<SFML/Graphics.hpp>
+
+1559051930 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.h
+
+1559621518 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Game.h"
+
+1559623039 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
+	<SFML/Graphics.hpp>
+	"Player.h"
+	"Enemy.h"
+	"DrawWindow.h"
+	"Colision.h"
+	"GameScore.h"
+	"Car.h"
+

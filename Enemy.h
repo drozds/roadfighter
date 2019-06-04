@@ -3,7 +3,8 @@
 #include "Car.h"
 class Enemy: public Car{
     public:
-    Enemy(const Vector2f & size, const Color & color, float speed);
+
+    Enemy(const Vector2f & size, const Color & color, float speed, float xposition);
     void update(float xposition);
     //int score = 0;
 };
