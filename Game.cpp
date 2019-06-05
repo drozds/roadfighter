@@ -31,31 +31,11 @@ Game::Game() {
 
 void Game::drawAll() {
     Player *player = new Player(PLAYER_SIZE, PLAYER_COLOR, PLAYER_SPEED);
-    Enemy *enemy1 = new Enemy(ENEMY_SIZE, ENEMY_COLOR, ENEMY_SPEED, rand() % 180);
-    Enemy *enemy2 = new Enemy(ENEMY_SIZE, ENEMY_COLOR, ENEMY_SPEED+0.05, rand() % 180 + 260);
+    Enemy *enemy1 = new Enemy(ENEMY_SIZE, ENEMY_COLOR, ENEMY_SPEED , 0);
+    Enemy *enemy2 = new Enemy(ENEMY_SIZE, ENEMY_COLOR, ENEMY_SPEED+0.05, 520);
     Collision *collision = new Collision;
     MyWindow *window = new MyWindow;
     Menu * menu = new Menu(window->myWindow.getSize().x, window->myWindow.getSize().y);
-    /*
-    ifstream readFile;
-    readFile.open("Highscore.txt");
-    if ( readFile.is_open() ) {
-        while ( readFile.eof() ) {
-            readFile >> menu->bestScore;
-        }
-    }
-    readFile.close();
-
-    ofstream writeFile( "Highscore.txt");
-    if (writeFile.is_open() ) {
-        if ( score > menu->bestScore) {
-            menu->bestScore = score;
-        }
-        writeFile << menu->bestScore;
-
-    }
-    writeFile.close();
-*/
 
     while (window->myWindow.isOpen())
         {

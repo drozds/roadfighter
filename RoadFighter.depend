@@ -500,8 +500,7 @@
 	"Car.h"
 	"Game.h"
 
-1559709887 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\main.cpp
-	<SFML/Graphics.hpp>
+1559716066 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\main.cpp
 	"Game.h"
 
 1559622272 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.h
@@ -520,7 +519,7 @@
 
 1559051930 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.h
 
-1559712904 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
+1559716546 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
 	<SFML/Graphics.hpp>
 	<iostream>
 	"Player.h"
@@ -535,7 +534,7 @@
 	<string>
 	<fstream>
 
-1559712829 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
+1559715985 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
 	<SFML/Graphics.hpp>
 
 1559712986 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.cpp

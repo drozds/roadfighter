@@ -11,9 +11,8 @@ class Game {
     int score = 0, highscore;
 
     bool gameOn;
-    void initMenu();
     void drawAll();
-    void updateAll();
+
 };
 
 #endif
