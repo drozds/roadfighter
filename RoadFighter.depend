@@ -473,9 +473,11 @@
 1559622272 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\car.h
 	<SFML/Graphics.hpp>
 
-1558500183 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.cpp
+1559710915 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.cpp
 	<SFML/Graphics.hpp>
-	"Collision.h"
+	"Colision.h"
+	<ctime>
+	<cstdlib>
 
 1559620028 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\drawwindow.cpp
 	<SFML/Graphics.hpp>
@@ -483,40 +485,33 @@
 	"Car.h"
 	<string>
 
-1559620086 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\drawwindow.h
+1559711058 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\drawwindow.h
 	<SFML/Graphics.hpp>
 	<string>
 
-1559053822 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.cpp
+1559651941 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.cpp
 	<SFML/Graphics.hpp>
 	"Enemy.h"
 	<ctime>
 	<cstdlib>
 	<iostream>
 
-1559053812 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.h
+1559651673 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\enemy.h
 	"Car.h"
+	"Game.h"
 
-1559621743 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\main.cpp
+1559709887 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\main.cpp
 	<SFML/Graphics.hpp>
-	<iostream>
-	"Player.h"
-	"Enemy.h"
-	"DrawWindow.h"
-	"Colision.h"
-	"GameScore.h"
-	<cstdlib>
-	<ctime>
 	"Game.h"
 
 1559622272 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.h
 	"Car.h"
 
-1558500190 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.h
+1559710929 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\colision.h
 	<SFML/Graphics.hpp>
 
-1559030690 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.cpp
-	"Car.h"
+1559624073 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\player.cpp
+	"Player.h"
 	<SFML/Graphics.hpp>
 
 1559051953 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.cpp
@@ -525,19 +520,27 @@
 
 1559051930 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.h
 
-1559621518 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
+1559710862 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
 	<SFML/Graphics.hpp>
 	<iostream>
-	<cstdlib>
-	<ctime>
-	"Game.h"
-
-1559623039 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
-	<SFML/Graphics.hpp>
 	"Player.h"
 	"Enemy.h"
 	"DrawWindow.h"
 	"Colision.h"
 	"GameScore.h"
-	"Car.h"
+	<cstdlib>
+	<ctime>
+	"Game.h"
+	"Menu.h"
+
+1559709188 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
+	<SFML/Graphics.hpp>
+
+1559711028 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.cpp
+	"Menu.h"
+	"Game.h"
+	<string>
+
+1559711191 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.h
+	"SFML/Graphics.hpp"
 

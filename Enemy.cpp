@@ -26,6 +26,7 @@ void Enemy::update(float xposition) {
     else  {
         xpos = xposition;
         ypos = -150;
+        this->times++;
         //cout<<++score<<endl;;
     }
 

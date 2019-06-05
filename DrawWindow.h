@@ -8,7 +8,6 @@ class MyWindow {
     public:
     static RenderWindow myWindow;
 
-    //void drawShape(RectangleShape & shape);
 };
 
 #endif // DRAWWINDOW_H
