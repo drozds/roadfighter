@@ -8,7 +8,8 @@ class Game {
 
     public:
     Game();
-    int score = 0;
+    int score = 0, highscore;
+
     bool gameOn;
     void initMenu();
     void drawAll();

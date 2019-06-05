@@ -520,7 +520,7 @@
 
 1559051930 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\gamescore.h
 
-1559710862 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
+1559712904 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.cpp
 	<SFML/Graphics.hpp>
 	<iostream>
 	"Player.h"
@@ -532,15 +532,17 @@
 	<ctime>
 	"Game.h"
 	"Menu.h"
+	<string>
+	<fstream>
 
-1559709188 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
+1559712829 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\game.h
 	<SFML/Graphics.hpp>
 
-1559711028 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.cpp
+1559712986 source:c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.cpp
 	"Menu.h"
 	"Game.h"
 	<string>
 
-1559711191 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.h
+1559712986 c:\users\siarhei\desktop\sdrozd\proi\proi4\4projekt\menu.h
 	"SFML/Graphics.hpp"
 

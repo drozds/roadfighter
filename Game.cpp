@@ -10,6 +10,7 @@
 #include "Game.h"
 #include "Menu.h"
 #include <string>
+#include <fstream>
 
 using namespace sf;
 using namespace std;
@@ -35,6 +36,26 @@ void Game::drawAll() {
     Collision *collision = new Collision;
     MyWindow *window = new MyWindow;
     Menu * menu = new Menu(window->myWindow.getSize().x, window->myWindow.getSize().y);
+    /*
+    ifstream readFile;
+    readFile.open("Highscore.txt");
+    if ( readFile.is_open() ) {
+        while ( readFile.eof() ) {
+            readFile >> menu->bestScore;
+        }
+    }
+    readFile.close();
+
+    ofstream writeFile( "Highscore.txt");
+    if (writeFile.is_open() ) {
+        if ( score > menu->bestScore) {
+            menu->bestScore = score;
+        }
+        writeFile << menu->bestScore;
+
+    }
+    writeFile.close();
+*/
 
     while (window->myWindow.isOpen())
         {
